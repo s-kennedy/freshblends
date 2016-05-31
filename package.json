@@ -1,0 +1,26 @@
+{
+  "name": "freshblends",
+  "version": "1.0.0",
+  "description": "Reinventing the co-packer model in Rwanda",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-kennedy/freshblends.git"
+  },
+  "keywords": [
+    "rwanda",
+    "social",
+    "enterprise",
+    "co-packer",
+    "agriculture"
+  ],
+  "author": "Sharon Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-kennedy/freshblends/issues"
+  },
+  "homepage": "https://github.com/s-kennedy/freshblends#readme"
+}
