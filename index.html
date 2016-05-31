@@ -59,14 +59,7 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
 
 </head>
 
-
-
-
-  <body class="home blog custom-background" >
-
-
-
-
+<body class="home blog custom-background" >
 
 <!-- =========================
 
@@ -88,24 +81,23 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
         <span class="icon-bar"></span>
       </button>
 
-      <a id="menu-toggle-search"> 
-        <div class="navbar-right-search"></div>
-      </a>
-
       <div class="navbar-header responsive-logo">
-
         <a href="https://wp-themes.com/" class="navbar-brand"><img src="images/logo.png" alt="Theme Preview"></a>
       </div>
 
       <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation"   id="site-navigation">
-
-        <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li class="page_item page-item-2"><a href="https://wp-themes.com/?page_id=2">About</a></li>
-<li class="page_item page-item-46 page_item_has_children"><a href="https://wp-themes.com/?page_id=46">Parent Page</a></li>
-</ul>
+        <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
+          <li class="page_item"><a href="#about">About us</a></li>
+          <li class="page_item"><a href="#offer">Our offer</a></li>
+          <li class="page_item"><a href="#solutions">Our Solutions</a></li>
+          <li class="page_item"><a href="#team">Our team</a></li>
+          <li class="page_item"><a href="#contact">Contact us</a></li>
+        </ul>
       </nav>
 
     </div>
-    <div id="wrapper">
+
+<!--     <div id="wrapper">
         <div class="header-search"> 
         
           <form role="search" method="get" class="search-form" action="https://wp-themes.com/">
@@ -118,9 +110,9 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
         
         
         </div>
-    </div>
+    </div> -->
 
-  </div>
+  </div> <!-- / END MAIN NAV -->
 
   <!-- / END TOP BAR -->
   <div class="home-header-wrap">
@@ -140,7 +132,7 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
 
 <div id="content" class="site-content">
 
-<section class="focus" id="focus">
+<section class="focus" id="about">
 
 <div class="container">
 
@@ -213,7 +205,7 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
 
 </section>  <!-- / END FOCUS SECTION -->
 
-<section class="about-us" id="aboutus">
+<section class="about-us" id="offer">
   <div class="container">
 
     <!-- SECTION HEADER -->
@@ -320,7 +312,7 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
 
 </section> <!-- END ABOUT US SECTION -->
 
-<section class="testimonial" id="testimonials">
+<section class="testimonial" id="solutions">
   <div class="container">
     <div class="section-header">
       <h2 class="white-text">OUR SOLUTIONS</h2>
@@ -520,46 +512,47 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
     <!-- SECTION HEADER -->
     <div class="section-header">
 
-      <h2 class="white-text">Get in touch</h2>          </div>
+      <h2 class="white-text">Get in touch</h2>          
+    </div>
     <!-- / END SECTION HEADER -->
 
-                <!-- CONTACT FORM-->
-      <div class="row">
+    <!-- CONTACT FORM-->
+    <div class="row">
 
+      <form role="form" method="POST" action="https://formspree.io/sharonkennedy100@gmail.com" onSubmit="this.scrollPosition.value=(document.body.scrollTop || document.documentElement.scrollTop)" class="contact-form">
+
+        <input type="hidden" name="scrollPosition">
+        <input type="hidden" name="submitted" id="submitted" value="true" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_subject" value="[FreshBlends] Message from website" />
+      
+        <div class="col-lg-4 col-sm-4 zerif-rtl-contact-name" data-scrollreveal="enter left after 0s over 1s">
+          <label for="myname" class="screen-reader-text">Name</label>
+          <input required="required" type="text" name="name" id="myname" placeholder="Name" class="form-control input-box" value="">
+        </div>
+
+        <div class="col-lg-4 col-sm-4 zerif-rtl-contact-email" data-scrollreveal="enter left after 0s over 1s">
+          <label for="myemail" class="screen-reader-text">Email</label>
+          <input required="required" type="email" name="_replyto" id="myemail" placeholder="Email" class="form-control input-box" value="">
+        </div>
+
+        <div class="col-lg-4 col-sm-4 zerif-rtl-contact-subject" data-scrollreveal="enter left after 0s over 1s">
+          <label for="mysubject" class="screen-reader-text">Country</label>
+          <input required="required" type="text" name="country" id="mycountry" placeholder="Country" class="form-control input-box" value="">
+        </div>
+
+        <div class="col-lg-12 col-sm-12" data-scrollreveal="enter right after 0s over 1s">
+          <label for="mymessage" class="screen-reader-text">Message</label>
+          <textarea name="message" id="mymessage" class="form-control textarea-box" placeholder="Message"></textarea>
+        </div>
+
+        <button class="btn btn-primary custom-button red-btn" type="submit" data-scrollreveal="enter left after 0s over 1s">Send Message</button>
         
-        <form role="form" method="POST" action="" onSubmit="this.scrollPosition.value=(document.body.scrollTop || document.documentElement.scrollTop)" class="contact-form">
+      </form>
 
-          <input type="hidden" name="scrollPosition">
+    </div>
 
-          <input type="hidden" name="submitted" id="submitted" value="true" />
-
-          <div class="col-lg-4 col-sm-4 zerif-rtl-contact-name" data-scrollreveal="enter left after 0s over 1s">
-            <label for="myname" class="screen-reader-text">Name</label>
-            <input required="required" type="text" name="myname" id="myname" placeholder="Name" class="form-control input-box" value="">
-          </div>
-
-          <div class="col-lg-4 col-sm-4 zerif-rtl-contact-email" data-scrollreveal="enter left after 0s over 1s">
-            <label for="myemail" class="screen-reader-text">Email</label>
-            <input required="required" type="email" name="myemail" id="myemail" placeholder="Email" class="form-control input-box" value="">
-          </div>
-
-          <div class="col-lg-4 col-sm-4 zerif-rtl-contact-subject" data-scrollreveal="enter left after 0s over 1s">
-            <label for="mysubject" class="screen-reader-text">Country</label>
-            <input required="required" type="text" name="mycountry" id="mycountry" placeholder="Country" class="form-control input-box" value="">
-          </div>
-
-          <div class="col-lg-12 col-sm-12" data-scrollreveal="enter right after 0s over 1s">
-            <label for="mymessage" class="screen-reader-text">Message</label>
-            <textarea name="mymessage" id="mymessage" class="form-control textarea-box" placeholder="Message"></textarea>
-          </div>
-
-          <button class="btn btn-primary custom-button red-btn" type="submit" data-scrollreveal="enter left after 0s over 1s">Send Message</button>
-          
-        </form>
-
-      </div>
-
-      <!-- / END CONTACT FORM-->
+    <!-- / END CONTACT FORM-->
     
   </div> <!-- / END CONTAINER -->
 
@@ -572,7 +565,27 @@ body.custom-background { background-image: url('images/bg.jpg'); background-repe
 
 <div class="container">
 
-  <div class="col-md-3 company-details"><div class="icon-top red-text"><img src="https://wp-themes.com/wp-content/themes/zerif-lite/images/map25-redish.png" alt="" /></div><div class="zerif-footer-address">Company address</div></div><div class="col-md-3 company-details"><div class="icon-top green-text"><img src="https://wp-themes.com/wp-content/themes/zerif-lite/images/envelope4-green.png" alt="" /></div><div class="zerif-footer-email"><a href="mailto:contact@site.com">contact@site.com</a></div></div><div class="col-md-3 company-details"><div class="icon-top blue-text"><img src="https://wp-themes.com/wp-content/themes/zerif-lite/images/telephone65-blue.png" alt="" /></div><div class="zerif-footer-phone"><a href="tel:0 332 548 954">0 332 548 954</a></div></div><div class="col-md-3 copyright"><ul class="social"><li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li><li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li><li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li><li><a target="_blank" href="#"><i class="fa fa-behance"></i></a></li><li><a target="_blank" href="#"><i class="fa fa-dribbble"></i></a></li></ul><div class="zerif-copyright-box"><a class="zerif-copyright" href="http://themeisle.com/themes/zerif-lite/" target="_blank" rel="nofollow">Zerif Lite </a>powered by<a class="zerif-copyright" href="http://wordpress.org/" target="_blank" rel="nofollow"> WordPress</a></div></div>
+  <div class="col-md-6 company-details">
+    <p>Freshblends is an Endeva Venture.</p>
+    <p>Endeva is a network of global experts working on business solutions for development. For close to 10 years we have engaged with businesses, donors and civil society organizations to catalyze inclusive business models both through direct support and by improving the enabling business environment that they work in. <a href="http://www.endeva.org/">More</a></p>
+  </div>
+
+  <div class="col-md-3 company-details">
+    <p>Rwanda</p>
+    <p>Contact: Bruce Irabona</p>
+    <p>Email: b.irabona@endeva.org</p>
+    <p>Phone: + 250 788 619 800</p>
+  </div>
+
+  <div class="col-md-3 company-details">
+    <p>Germany</p>
+    <p>Contact: Christina Gradl</p>
+    <p>Email: c.gradl@endeva.org</p>
+    <p>Phone: +49 176 820 390 60</p>
+  </div>
+
+</div>
+
 </div> <!-- / END CONTAINER -->
 
 </footer> <!-- / END FOOOTER  -->
