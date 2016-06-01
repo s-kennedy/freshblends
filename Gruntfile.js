@@ -11,8 +11,7 @@ module.exports = function(grunt) {
         mainFiles: {
           handlebars: ['handlebars.min.js', 'handlebars.runtime.min.js'],
           bootstrap: ['dist/js/bootstrap.min.js', 'dist/css/bootstrap.min.css'],
-          'font-awesome': 'css/font-awesome.min.css',
-          scrollreveal: 'dist/scrollreveal.min.js'
+          'font-awesome': 'css/font-awesome.min.css'
         },
         bowerOptions: {
           relative: false
