@@ -81,7 +81,7 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + "</h1>\n        <div class=\"buttons\">\n          <a href=\"https://www.dropbox.com/s/qktrbiz6ox3x2ui/Copacker%20in%20Rwanda_small.pdf?dl=0\" class=\"btn btn-primary custom-button red-btn\">"
     + alias3(alias2(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.header : stack1)) != null ? stack1.button : stack1), depth0))
     + "</a>\n        </div>\n      </div>\n    </div>\n    <!-- .header-content-wrap -->\n    <div class=\"clear\"></div>\n  </div>\n</header> <!-- / END HOME SECTION  -->\n\n<div id=\"content\" class=\"site-content\">\n\n<section class=\"focus\" id=\"about\">\n\n<div class=\"container\">\n\n  <!-- SECTION HEADER -->\n\n  <div class=\"section-header\">\n\n    <!-- SECTION TITLE -->\n\n    <h2 class=\"dark-text\">"
-    + alias3(alias2(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.section1 : stack1)) != null ? stack1.title : stack1), depth0))
+    + alias3(alias2(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.about : stack1)) != null ? stack1.title : stack1), depth0))
     + "</h2>\n    <div class=\"section-legend\">"
     + alias3(alias2(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.about : stack1)) != null ? stack1.legend : stack1), depth0))
     + "</div>\n  </div>\n\n  <div class=\"row\">\n"
