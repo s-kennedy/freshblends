@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/s-kennedy/freshblends/issues"
   },
-  "homepage": "https://github.com/s-kennedy/freshblends#readme"
+  "homepage": "https://github.com/s-kennedy/freshblends#readme",
+  "dependencies": {
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-handlebars": "^1.0.0"
+  }
 }
