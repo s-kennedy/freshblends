@@ -17,10 +17,10 @@ General
 --------------------------------------------------------------*/
 
 .entry-content a {
-	color: #fc5f45;
+	color: #11B0BF;
 }
 .entry-content a:visited {
-	color: #fc5f45;
+	color: #11B0BF;
 }
 .entry-content a:hover {
 	color: #ea4747;
@@ -41,7 +41,7 @@ Header
 }
 
 #main-nav{
-	border-bottom: 3px solid #FC5F45 !important;
+	border-bottom: 3px solid #11B0BF !important;
 }
 .navbar-right-search{
 	float: right !important;
@@ -54,7 +54,7 @@ Header
 	margin-right: 5px;
 }
 .header-search{
-	background: #FC5F45;
+	background: #11B0BF;
 	position: absolute;
 	width: 100%;
 	text-align:center !important;
@@ -117,10 +117,10 @@ Header
 	color: white !important;
 }
 .nav li a.nav-active {
-	color: #fc5f45 !important;
+	color: #11B0BF !important;
 }
 .nav li a.nav-active:before {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .header {
 	min-height: 0;
@@ -132,7 +132,14 @@ Header
 	color: #FFF !important;
 	text-transform: uppercase;
 }
-
+.cta .fa-chevron-down {
+	font-size: 48px;
+	color: rgba(17,176,191,0.8)
+}
+.cta .fa-chevron-down:hover {
+	color: rgba(17,176,191,1);
+	font-weight: bold;
+}
 /*--------------------------------------------------------------
 Content
 --------------------------------------------------------------*/
@@ -153,16 +160,16 @@ h2.white-text {
 	border-radius: 5px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #fc5f45 !important;
+	border-color: #11B0BF !important;
 	position: relative;
-	background: rgba(252,95,69, 0.8) !important;
+	background: rgba(17,176,191, 0.8) !important;
 	font-family: 'Titillium Web', sans-serif;
 }
 .red-btn:hover {
     border-width: 2px;
 	border-style: solid;
-    border-color: #fc5f45 !important;
-    background: #fc5f45 !important;
+    border-color: #11B0BF !important;
+    background: #11B0BF !important;
 }
 .green-btn {
 	border-radius: 5px;
@@ -190,7 +197,11 @@ h2.white-text {
 	padding: 15px 0;
 }
 .testimonial {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
+}
+.feedback-box .message h4 > span {
+	font-weight: 600;
+	font-size: inherit;
 }
 .feedback-box .message {
 	color: #334346 !important;
@@ -207,7 +218,7 @@ body{
 }
 .entry-title:before {
 	content: "";
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .entry-title a:hover{
 	color: #ea4747 !important;
@@ -220,7 +231,7 @@ body{
 }
 .widget .widget-title:before {
 	content: "";
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .section-header h2{
 	text-transform: capitalize !important;
@@ -230,11 +241,11 @@ body{
 }
 .logged-in-as a {
 
-	color: #fc5f45 !important;
+	color: #11B0BF !important;
 }
 .fn a {
 
-	color: #fc5f45 !important;
+	color: #11B0BF !important;
 }
 body, button, input, select, textarea {
 	color: #1f2124 !important;
@@ -249,7 +260,7 @@ body, button, input, select, textarea {
 	color: #fff !important;
 }
 ::-moz-selection {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 	color: #fff !important;
 }
 .testimonial h2 {
@@ -267,7 +278,7 @@ body, button, input, select, textarea {
 	background: rgba(255,255,255, 1) !important;
 }
 .newsletter {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 	color: white !important;
 }
 .newsletter h3 {
@@ -296,12 +307,12 @@ body, button, input, select, textarea {
 	border-radius: 1px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: rgba(51,67,70, 1) !important;
+	border-color: rgba(17,176,191, 0.8) !important;
 	position: relative;
-	background: rgba(51,67,70, 0.8) !important;
+	background: rgba(17,176,191, 0.8) !important;
 }
 .purchase-now .red-btn:hover {
-	background: rgba(51,67,70, 1) !important;
+	background: rgba(17,176,191, 1) !important;
 }
 .latest-news h6 {
 	color: #334346 !important;
@@ -309,9 +320,10 @@ body, button, input, select, textarea {
 .focus-box .service-icon {
 	border: 10px solid #cecece !important;
 }
-.focus-box p {
+.focus-box p, li {
 	font-family: 'Titillium Web', sans-serif !important;
 	color: #919495 !important;
+	font-size: 14px;
 }
 .service-icon a:hover{
 	color:red !important;
@@ -351,7 +363,7 @@ body, button, input, select, textarea {
 	/*background-color: #2e3037 !important;*/
 }
 .red-border-bottom:before {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .about-us p {
 	color: #919495 !important;
@@ -368,7 +380,7 @@ body, button, input, select, textarea {
 }
 #carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
 	content: "";
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .copyright {
 	background: rgba(0,0,0,0.3) !important;
@@ -436,19 +448,19 @@ body, button, input, select, textarea {
 	color: #c0cdcf !important;
 }
 .zerif-copyright {
-	color: #fc5f45 !important;
+	color: #11B0BF !important;
 }
 .zerif-copyright:hover {
 	opacity: 0.8;
 }
 .our-team .row > div .red-border-bottom:before {
-	background: #fc5f45 !important;
+	background: #11B0BF !important;
 }
 .team-member .social-icons ul li a {
 	background: none;
 }
 .team-member .social-icons ul li a:hover {
-	color: #fc5f45 !important;
+	color: #11B0BF !important;
 }
 .social-icons .widget li:before {
 	content: '';
@@ -488,6 +500,22 @@ Footer
 	color: #919495 !important;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
+	text-align: left;
+}
+.company-details img {
+	vertical-align: initial;
+	padding-right: 10px;
+	width: 120px;
+}
+.company-details h4,a {
+	color: #fff !important;
+}
+.company-details.contact-info p{
+	margin-bottom: 4px;
+}
+.company-details .fa {
+	margin-right: 20px;
+	max-width: 10px;
 }
 #wrapper {
     padding-top: 0;

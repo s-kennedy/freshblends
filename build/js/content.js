@@ -3,7 +3,6 @@ var content = {
     navigation: {
       about: { id: "about", title: "About us" },
       offer: { id: "offer", title: "Our offer" },
-      solutions: { id: "solutions", title: "Our solutions"},
       team: { id: "team", title: "Our team"},
       contact: { id: "contact", title: "Contact us"}
     },
@@ -56,13 +55,11 @@ var content = {
             { skill: "ACCESS TO MARKETS" }
           ]
         }
-      }
-    },
-    solutions: {
+      },
       packages: {
         package1: {
           title: "Full package",
-          description: "Designed for farmers cooperatives",
+          description: "Designed for <span>farmers cooperatives</span>",
           features: [
             { item: "FreshBlends obtains raw materials from farmers cooperatives" },
             { item: "FreshBlends takes responsibility for all steps from purchasing the inputs up to sales" },
@@ -71,7 +68,7 @@ var content = {
         },
         package2: {
           title: "Start-up package",
-          description: "Designed for young entrepreneurs and farmer cooperatives",
+          description: "Designed for <span>young entrepreneurs</span> and <span>farmer cooperatives</span>",
           features: [
             { item: "FreshBlends guides young entrepreneurs to bring their product idea to market" },
             { item: "Entrepreneurs can make use of all services offered by FreshBlends" },
@@ -81,13 +78,13 @@ var content = {
         },
         package3: {
           title: "A la carte",
-          description: "Designed for established entrepreneurs",
+          description: "Designed for <span>established entrepreneurs</span>",
           features: [
             { item: "FreshBlends acts as a standard service-provider and entrepreneurs simply  select the services they desire." },
             { item: "Part of the fee is paid upfront and part is paid upon deliver of the services." }
           ]  
         }
-      }
+      },
     },
     team: {
       legend: "Our diverse and experienced team is associated with Endeva and united by our shared motivation and belief that the co-packer model will transform the lives of farmers and young entrepreneurs in Rwanda and beyond.",
@@ -131,8 +128,8 @@ var content = {
       ]
     },
     footer: {
-      endeva: "Freshblends is an Endeva Venture.",
-      endevaDescription: "Endeva is a network of global experts working on business solutions for development. For close to 10 years we have engaged with businesses, donors and civil society organizations to catalyze inclusive business models both through direct support and by improving the enabling business environment that they work in. <a href='http://www.endeva.org/'>More</a>",
+      endeva: "This initiative is an Endeva Venture.",
+      endevaDescription: "Endeva is a network of global experts working on business solutions for development. For close to 10 years we have engaged with businesses, donors and civil society organizations to catalyze inclusive business models both through direct support and by improving the enabling business environment that they work in. <a href='http://www.endeva.org/'>Learn more</a>",
       contacts: {
         rwanda: {
           country: "Rwanda",
