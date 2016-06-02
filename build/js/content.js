@@ -1,4 +1,5 @@
 var content = {
+  root: "//s-kennedy.github.io/freshblends",
   index: {
     navigation: {
       about: { id: "about", title: "About us" },
@@ -195,10 +196,18 @@ var content = {
           phone: "+49 176 820 390 60"
         }
       }
+    },
+    thanks: {
+      message: "Thank you for contacting us. We'll be in touch shortly!",
+      button: {
+        text: "Home", 
+        link: "/"
+      }
     }
   }
 }
 
 $(function() {
   $('body.home').append(Freshblends.Templates.index(content))
+  $('body.thanks').append(Freshblends.Templates.thanks(content))
 })
