@@ -4,34 +4,38 @@ var content = {
       about: { id: "about", title: "About us" },
       offer: { id: "offer", title: "Our offer" },
       team: { id: "team", title: "Our team"},
+      news: { id: "news", title: "Latest news"},
       contact: { id: "contact", title: "Contact us"}
     },
     header: {
-      intro: "Reinventing the co-packer model in Rwanda",
-      button: "Download the concept note"
+      intro: "Reinventing the co-packer model in Rwanda"
     },
     about: {
       legend: "Our approach is a game changer! It will drastically reduce the barriers to African SMME’s entering the premium agro-processing sector.",
       columns: {
         column1: {
-          image: "parallax.png",
+          image: "about1.jpg", // the images should be 125px by 125px
           title: "THE BIG IDEA",
-          text: "We are reinventing the co-packer model in Rwanda. By providing affordable quality packaging, processing services, and market access, we will: <ul><li>increase farmer and entrepreneur incomes</li><li>reduce post-harvest losses</li><li>increase biodiversity </li><li>Increase availability of high quality African products</li></ul>"
+          subtitle: "We are reinventing the co-packer model in Rwanda.",
+          text: "By providing affordable quality packaging, processing services, and market access, we will: <ul><li>increase farmer and entrepreneur incomes</li><li>reduce post-harvest losses</li><li>increase biodiversity </li><li>increase availability of high quality African products</li></ul>"
         },
         column2: {
-          image: "parallax.png",
+          image: "about2.jpg",
           title: "THE APPROACH",
-          text: "Our copacker will provide farmers, young entrepreneurs and existing agro processing companies with a customized support package (see below). These services will be available at a certified processing space. A mobile-based IT platform will guide the clients through the process, provide transparency along the value chain, up-to-date market prices and standardized procedures. This will be complemented by periodic in person support."
+          subtitle: "Our copacker will provide farmers, young entrepreneurs and existing agro processing companies with:",
+          text: "<ul><li>a customized support package (see below).</li><li>a certified processing space.</li><li>a mobile-based IT platform which will guide the clients through the process, provide transparency along the value chain, up-to-date market prices and standardized procedures.</li><li>periodic in-person expert support.</li></ul>"
         },
         column3: {
-          image: "parallax.png",
+          image: "about3.jpg",
           title: "THE INNOVATION",
-          text: "Existing solutions tend to overwhelm the farmers. They provide farmers witH processing machinery, simple packaging and some training, basically asking the famers to run both their farm and a small scale processing unit. This approach always fails. In the US, farmers and cooperatives can bring their products to a co-packer, who offers a wide range of services to produce high-quality food products."
+          subtitle: "Existing solutions tend to overwhelm the farmers.",
+          text: "They provide farmers with processing machinery, simple packaging and some training, basically asking the famers to run both their farm and a small scale processing unit. This approach always fails.<br><br>In the US, farmers and cooperatives can bring their products to a co-packer, who offers a wide range of services to produce high-quality food products."
         },
         column4: {
-          image: "parallax.png",
+          image: "about4.jpg",
           title: "THE VISION",
-          text: "We are the first to adapt the co-packer business model to the African context. If we are successful in Rwanda, our ultimate objective is to scale this across the continent and impact the lives of millions of farmers and young entrepreneurs."
+          subtitle: "We are the first to adapt the co-packer business model to the African context.",
+          text: "If we are successful in Rwanda, our ultimate objective is to scale this across the continent and impact the lives of millions of farmers and young entrepreneurs."
         }
       }
     },
@@ -61,27 +65,24 @@ var content = {
           title: "Full package",
           description: "Designed for <span>farmers cooperatives</span>",
           features: [
-            { item: "FreshBlends obtains raw materials from farmers cooperatives" },
-            { item: "FreshBlends takes responsibility for all steps from purchasing the inputs up to sales" },
-            { item: "Final products will carry the ‘FreshBlends’ label" }
+            { item: "We raw materials from farmers cooperatives" },
+            { item: "We take responsibility for all steps from sourcing to sales and products carry our own brand" }
           ]          
         },
         package2: {
           title: "Start-up package",
           description: "Designed for <span>young entrepreneurs</span> and <span>farmer cooperatives</span>",
           features: [
-            { item: "FreshBlends guides young entrepreneurs to bring their product idea to market" },
-            { item: "Entrepreneurs can make use of all services offered by FreshBlends" },
-            { item: "Final products will carry the clients label or if desired, the FreshBlends label" },
-            { item: "Clients pay for part of the services through a monthly fee and the remainder at an agreed later date, ideally once they receive the revenues from sales." }
+            { item: "We help you bring your product idea to market" },
+            { item: "We take you through a guided process from including support in sourcing, business development, product development, financing and  market access" },
+            { item: "We package your product with your brand and can help with delivery" },
           ]     
         },
         package3: {
           title: "A la carte",
           description: "Designed for <span>established entrepreneurs</span>",
           features: [
-            { item: "FreshBlends acts as a standard service-provider and entrepreneurs simply  select the services they desire." },
-            { item: "Part of the fee is paid upfront and part is paid upon deliver of the services." }
+            { item: "We act as a standard service-provider. You simply  select the services you need and we deliver." },
           ]  
         }
       },
@@ -96,13 +97,13 @@ var content = {
           details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
         },
         {
-          image: "tendai.jpg",
+          image: "christina.jpg",
           name: "Christina Gradl-Tewes",
           position: "Co-founder",
           details: "Christina has 13+ years of experience analyzing and advising inclusive businesses in a range of sectors including agriculture. She has published over 20 studies on the subject."
         },
         {
-          image: "tendai.jpg",
+          image: "bruce.png",
           name: "Bruce Irabona",
           position: "On-site operations",
           details: "Based in Rwanda, Bruce brings his insights from 8 years of experience in agriculture. He has worked with smallholder farmers and linked them to export opportunities."
@@ -124,6 +125,26 @@ var content = {
           name: "Megan Leahy",
           position: "Research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
+        }
+      ]
+    },
+    news: {
+      articles: [
+        {
+          title: "We made it to the finals!",
+          date: "Jan 2016",
+          link: "http://munich.impacthub.net/eight-billion-lives/",
+          image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
+          text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
+          class: "col-sm-3 col-sm-offset-3" // remove the col-sm-offset-3 when you add more news items.
+        },
+        {
+          title: "Amplify Challenge selects our idea!",
+          date: "May 2016",
+          link: "https://challenges.openideo.com/challenge/agricultural-innovation/expert-feedback/reinventing-the-co-packer-model-in-rwanda",
+          image: "https://pbs.twimg.com/profile_images/596062296566157312/RKUCJ6V2.jpg",
+          text: "We are one of 85 ideas that have made is the second round of the OpenIdeo Amplify Challenge for Agriculture! Competition was stiff with 426 ideas to compete against. The competition is designed as a learning process, with several steps to complete. It has been a valuable exercise that has allowed us to refine our idea using OpenIdeo’s human centered design approach.",
+          class: "col-sm-3"
         }
       ]
     },

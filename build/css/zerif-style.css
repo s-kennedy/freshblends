@@ -652,7 +652,7 @@ textarea {
   text-align: left;
   text-transform: none;
   padding: 9px;
-  min-height: 46px;
+  height: 46px !important;
   padding-left: 15px !important;
   display: inline-block;
   border-radius: 4px;
@@ -6219,7 +6219,7 @@ body.custom-background {
   #testimonials > .container > .row,
   .zerif-rtl-contact-name,
   .zerif-rtl-contact-email,
-  .zerif-rtl-contact-subject,
+  .zerif-rtl-contact-country,
   #contact > .container > .row .col-lg-12.col-sm-12,
   .purchase-now > .container > .row .col-md-9,
   .purchase-now > .container > .row .col-md-3,
