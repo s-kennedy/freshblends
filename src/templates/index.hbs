@@ -181,7 +181,7 @@
       <div class="section-legend">{{ index.team.legend }}</div>
     </div>
 
-    <div class="row" data-scrollreveal="enter left after 0s over 0.1s">
+    <div class="row" data-scrollreveal="enter left after 0s over 0.5s">
 
       {{#each index.team.members }}
       <div class="col-lg-3 col-sm-3 team-box">
@@ -193,6 +193,41 @@
         
           <div class="member-details">
             <h3 class="dark-text red-border-bottom">{{name}}</h3>
+            <div class="position">{{position}}</div>
+          </div>
+
+          <div class="details">
+            {{details}}
+          </div>
+        
+        </div>
+      </div>
+      {{/each}}
+
+    </div>
+  </div>
+</section> 
+
+<section class="our-board" id="board">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="white-text">{{ index.navigation.board.title }}</h2>
+
+      <div class="section-legend white-text">{{ index.board.legend }}</div>
+    </div>
+
+    <div class="row" data-scrollreveal="enter right after 0s over 0.5s">
+
+      {{#each index.board.members }}
+      <div class="col-lg-3 col-sm-3 team-box">
+
+        <div class="team-member">
+          <figure class="profile-pic">
+            <img src="images/{{image}}" alt="Uploaded image" />
+          </figure>
+        
+          <div class="member-details">
+            <h3 class="white-text red-border-bottom">{{name}}</h3>
             <div class="position">{{position}}</div>
           </div>
 

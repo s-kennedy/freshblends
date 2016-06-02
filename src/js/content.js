@@ -4,6 +4,7 @@ var content = {
       about: { id: "about", title: "About us" },
       offer: { id: "offer", title: "Our offer" },
       team: { id: "team", title: "Our team"},
+      board: { id: "board", title: "Our board"},
       news: { id: "news", title: "Latest news"},
       contact: { id: "contact", title: "Contact us"}
     },
@@ -125,6 +126,35 @@ var content = {
           name: "Megan Leahy",
           position: "Research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
+        }
+      ]
+    },
+    board: {
+      legend: "Coming soon!",
+      members: [
+        {
+          image: "tendai.jpg",
+          name: "Tendai Pasipanodya",
+          position: "Co-founder",
+          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
+        },
+        {
+          image: "tendai.jpg",
+          name: "Tendai Pasipanodya",
+          position: "Co-founder",
+          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
+        },
+        {
+          image: "tendai.jpg",
+          name: "Tendai Pasipanodya",
+          position: "Co-founder",
+          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
+        },
+        {
+          image: "tendai.jpg",
+          name: "Tendai Pasipanodya",
+          position: "Co-founder",
+          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
         }
       ]
     },
