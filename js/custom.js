@@ -140,7 +140,7 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + alias3(alias2(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.board : stack1)) != null ? stack1.title : stack1), depth0))
     + "</h2>\n\n      <div class=\"section-legend white-text\">"
     + alias3(alias2(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.legend : stack1), depth0))
-    + "</div>\n    </div>\n\n    <div class=\"row\" data-scrollreveal=\"enter left after 0s over 0.5s\">\n\n"
+    + "</div>\n    </div>\n\n    <div class=\"row\" data-scrollreveal=\"enter right after 0s over 0.5s\">\n\n"
     + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.members : stack1),{"name":"each","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\n    </div>\n  </div>\n</section> \n\n<section class=\"latest-news\" id=\"news\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h2 class=\"white-text\">"
     + alias3(alias2(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.news : stack1)) != null ? stack1.title : stack1), depth0))
