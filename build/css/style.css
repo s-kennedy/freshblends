@@ -508,7 +508,7 @@ Footer
 	width: 120px;
 }
 .company-details h4,a {
-	color: #fff;
+	color: #fff !important;
 }
 .company-details.contact-info p{
 	margin-bottom: 4px;

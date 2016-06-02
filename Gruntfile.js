@@ -5,8 +5,8 @@ module.exports = function(grunt) {
     bower_concat: {
       all: {
         dest: {
-          'js': 'build/js/_bower.js',
-          'css': 'build/css/_bower.css'
+          'js': 'build/js/bower.js',
+          'css': 'build/css/bower.css'
         },
         mainFiles: {
           handlebars: ['handlebars.min.js', 'handlebars.runtime.min.js'],
