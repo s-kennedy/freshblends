@@ -179,6 +179,9 @@ var content = {
         }
       ]
     },
+    contact: {
+      email: "sharon.peishan.kennedy@gmail.com"
+    },
     footer: {
       endeva: "This initiative is an Endeva Venture.",
       endevaDescription: "Endeva is a network of global experts working on business solutions for development. For close to 10 years we have engaged with businesses, donors and civil society organizations to catalyze inclusive business models both through direct support and by improving the enabling business environment that they work in. <a href='http://www.endeva.org/'>Learn more</a>",
@@ -201,7 +204,7 @@ var content = {
       message: "Thank you for contacting us. We'll be in touch shortly!",
       button: {
         text: "Home", 
-        link: "/"
+        link: "/freshblends"
       }
     }
   }
