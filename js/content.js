@@ -67,7 +67,7 @@ var content = {
           title: "Full package",
           description: "Designed for <span>farmers cooperatives</span>",
           features: [
-            { item: "We raw materials from farmers cooperatives" },
+            { item: "We source raw materials from farmers cooperatives" },
             { item: "We take responsibility for all steps from sourcing to sales and products carry our own brand" }
           ]          
         },
