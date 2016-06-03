@@ -47,7 +47,7 @@ module.exports = function(grunt) {
         files: [
           { expand: true, flatten: true, src: ['src/images/*'], dest: 'build/images' },
           { expand: true, flatten: true, src: ['src/fonts/*', 'bower_components/font-awesome/fonts/*', 'bower_components/bootstrap/dist/fonts/*'], dest: 'build/fonts'},
-          { expand: true, flatten: true, src: ['src/index.html', 'src/concept_note.pdf', 'src/thanks.html'], dest: 'build'},
+          { expand: true, flatten: true, src: ['src/files/*'], dest: 'build'},
           { expand: true, flatten: true, src: ['src/js/html5.js', 'src/js/content.js'], dest: 'build/js'},
           { expand: true, flatten: true, src: ['src/css/*'], dest: 'build/css'}
         ]
