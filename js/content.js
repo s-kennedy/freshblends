@@ -106,7 +106,7 @@ var content = {
         },
         {
           image: "bruce.png",
-          name: "Bruce Irabona",
+          name: "Bruce Irambona",
           position: "On-site operations",
           details: "Based in Rwanda, Bruce brings his insights from 8 years of experience in agriculture. He has worked with smallholder farmers and linked them to export opportunities."
         },
@@ -181,7 +181,7 @@ var content = {
       ]
     },
     contact: {
-      email: "sharon.peishan.kennedy@gmail.com"
+      email: "m.leahy@endeva.org"
     },
     footer: {
       endeva: "This initiative is an Endeva Venture.",
@@ -189,8 +189,8 @@ var content = {
       contacts: {
         rwanda: {
           country: "Rwanda",
-          contact: "Bruce Irabona",
-          email: "b.irabona@endeva.org",
+          contact: "Bruce Irambona",
+          email: "b.irambona@endeva.org",
           phone: "+250 788 619 800"
         },
         germany: {
