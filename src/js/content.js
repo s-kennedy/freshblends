@@ -67,7 +67,7 @@ var content = {
           title: "Full package",
           description: "Designed for <span>farmers cooperatives</span>",
           features: [
-            { item: "We raw materials from farmers cooperatives" },
+            { item: "We source raw materials from farmers cooperatives" },
             { item: "We take responsibility for all steps from sourcing to sales and products carry our own brand" }
           ]          
         },
@@ -106,7 +106,7 @@ var content = {
         },
         {
           image: "bruce.png",
-          name: "Bruce Irabona",
+          name: "Bruce Irambona",
           position: "On-site operations",
           details: "Based in Rwanda, Bruce brings his insights from 8 years of experience in agriculture. He has worked with smallholder farmers and linked them to export opportunities."
         },
@@ -168,9 +168,41 @@ var content = {
           link: "https://challenges.openideo.com/challenge/agricultural-innovation/expert-feedback/reinventing-the-co-packer-model-in-rwanda",
           image: "https://pbs.twimg.com/profile_images/596062296566157312/RKUCJ6V2.jpg",
           text: "We are one of 85 ideas that have made is the second round of the OpenIdeo Amplify Challenge for Agriculture! Competition was stiff with 426 ideas to compete against. The competition is designed as a learning process, with several steps to complete. It has been a valuable exercise that has allowed us to refine our idea using OpenIdeo’s human centered design approach.",
-          class: "col-sm-3 col-sm-offset-3" // remove the col-sm-offset-3 when you add more news items.
+          class: "col-sm-3" // remove the col-sm-offset-3 when you add more news items.
         },
         {
+          title: "We made it to the finals!",
+          date: "Jan 2016",
+          link: "http://munich.impacthub.net/eight-billion-lives/",
+          image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
+          text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
+          class: "col-sm-3"
+        },
+          {
+          title: "We made it to the finals!",
+          date: "Jan 2016",
+          link: "http://munich.impacthub.net/eight-billion-lives/",
+          image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
+          text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
+          class: "col-sm-3"
+        },
+          {
+          title: "We made it to the finals!",
+          date: "Jan 2016",
+          link: "http://munich.impacthub.net/eight-billion-lives/",
+          image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
+          text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
+          class: "col-sm-3"
+        },
+          {
+          title: "We made it to the finals!",
+          date: "Jan 2016",
+          link: "http://munich.impacthub.net/eight-billion-lives/",
+          image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
+          text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
+          class: "col-sm-3"
+        },
+          {
           title: "We made it to the finals!",
           date: "Jan 2016",
           link: "http://munich.impacthub.net/eight-billion-lives/",
@@ -181,7 +213,7 @@ var content = {
       ]
     },
     contact: {
-      email: "sharon.peishan.kennedy@gmail.com"
+      email: "m.leahy@endeva.org"
     },
     footer: {
       endeva: "This initiative is an Endeva Venture.",
@@ -189,8 +221,8 @@ var content = {
       contacts: {
         rwanda: {
           country: "Rwanda",
-          contact: "Bruce Irabona",
-          email: "b.irabona@endeva.org",
+          contact: "Bruce Irambona",
+          email: "b.irambona@endeva.org",
           phone: "+250 788 619 800"
         },
         germany: {
