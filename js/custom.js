@@ -62,6 +62,16 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + alias4(((helper = (helper = helpers.details || (depth0 != null ? depth0.details : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"details","hash":{},"data":data}) : helper)))
     + "\n          </div>\n        \n        </div>\n      </div>\n";
 },"14":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "<section class=\"our-board\" id=\"board\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h2 class=\"white-text\">"
+    + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.board : stack1)) != null ? stack1.title : stack1), depth0))
+    + "</h2>\n\n      <div class=\"section-legend white-text\">"
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.legend : stack1), depth0))
+    + "</div>\n    </div>\n\n    <div class=\"row\" data-scrollreveal=\"enter right after 0s over 0.5s\">\n\n"
+    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.members : stack1),{"name":"each","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\n    </div>\n  </div>\n</section> \n";
+},"15":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "      <div class=\"col-lg-3 col-sm-3 team-box\">\n\n        <div class=\"team-member\">\n          <figure class=\"profile-pic\">\n            <img src=\"images/"
@@ -73,7 +83,7 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + "</div>\n          </div>\n\n          <div class=\"details\">\n            "
     + alias4(((helper = (helper = helpers.details || (depth0 != null ? depth0.details : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"details","hash":{},"data":data}) : helper)))
     + "\n          </div>\n        \n        </div>\n      </div>\n";
-},"16":function(container,depth0,helpers,partials,data) {
+},"17":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "        <div class=\"latestnews-box "
@@ -93,7 +103,13 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + "</p>\n            <p><a href=\""
     + alias4(((helper = (helper = helpers.link || (depth0 != null ? depth0.link : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link","hash":{},"data":data}) : helper)))
     + "\" target=\"_blank\">Read more</a></p>\n          </div>\n        </div><!-- .latestnews-box\"> -->\n";
-},"18":function(container,depth0,helpers,partials,data) {
+},"19":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return "      <div class=\"item\">\n"
+    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.articles : stack1)) != null ? stack1.row2 : stack1),{"name":"each","hash":{},"fn":container.program(17, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "      </div>\n\n      <div class=\"clear\"></div>\n";
+},"21":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "\n  <div class=\"col-md-3 company-details contact-info\">\n    <h4 style=\"margin-top: 28px\">"
@@ -138,21 +154,17 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + alias4(alias5(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.team : stack1)) != null ? stack1.legend : stack1), depth0))
     + "</div>\n    </div>\n\n    <div class=\"row\" data-scrollreveal=\"enter left after 0s over 0.5s\">\n\n"
     + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.team : stack1)) != null ? stack1.members : stack1),{"name":"each","hash":{},"fn":container.program(12, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n    </div>\n  </div>\n</section> \n\n<section class=\"our-board\" id=\"board\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h2 class=\"white-text\">"
-    + alias4(alias5(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.board : stack1)) != null ? stack1.title : stack1), depth0))
-    + "</h2>\n\n      <div class=\"section-legend white-text\">"
-    + alias4(alias5(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.legend : stack1), depth0))
-    + "</div>\n    </div>\n\n    <div class=\"row\" data-scrollreveal=\"enter right after 0s over 0.5s\">\n\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.members : stack1),{"name":"each","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n    </div>\n  </div>\n</section> \n\n<section class=\"latest-news\" id=\"news\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h2 class=\"white-text\">"
+    + "\n    </div>\n  </div>\n</section> \n\n"
+    + ((stack1 = helpers.unless.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.board : stack1)) != null ? stack1.hidden : stack1),{"name":"unless","hash":{},"fn":container.program(14, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\n<section class=\"latest-news\" id=\"news\">\n  <div class=\"container\">\n    <div class=\"section-header\">\n      <h2 class=\"white-text\">"
     + alias4(alias5(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.news : stack1)) != null ? stack1.title : stack1), depth0))
     + "</h2>\n      <div class=\"white-text section-legend\">"
     + alias4(alias5(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.legend : stack1), depth0))
     + "</div>\n      <div class=\"updates\"><a href=\"//www.mailchimp.com/\" target=\"_blank\" class=\"btn btn-primary custom-button green-btn\">Sign up to receive updates</a></div>\n    </div><!-- END .section-header -->\n\n  <div class=\"clear\"></div>\n\n  <div id=\"carousel-homepage-latestnews\" class=\"carousel slide\" >\n    <div class=\"carousel-inner\" role=\"listbox\">\n      <div class=\"item active\">\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.articles : stack1)) != null ? stack1.row1 : stack1),{"name":"each","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "      </div>\n\n      <div class=\"clear\"></div>\n      \n      <div class=\"item\">\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.articles : stack1)) != null ? stack1.row2 : stack1),{"name":"each","hash":{},"fn":container.program(16, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "      </div>\n\n      <div class=\"clear\"></div>\n\n    </div><!-- .carousel-inner -->\n\n    <a class=\"left carousel-control\" href=\"#carousel-homepage-latestnews\" role=\"button\" data-slide=\"prev\">\n      <i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i><span class=\"sr-only\">Previous</span>\n    </a>\n\n    <a class=\"right carousel-control\" href=\"#carousel-homepage-latestnews\" role=\"button\" data-slide=\"next\">\n      <i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i><span class=\"sr-only\">Next</span>\n    </a>\n  </div><!-- #carousel-homepage-latestnews -->\n</div><!-- .container -->\n</section>\n\n\n\n<section class=\"contact-us\" id=\"contact\">\n  <div class=\"container\">\n    <!-- SECTION HEADER -->\n    <div class=\"section-header\">\n\n      <h2 class=\"white-text\">"
+    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.articles : stack1)) != null ? stack1.row1 : stack1),{"name":"each","hash":{},"fn":container.program(17, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "      </div>\n\n      <div class=\"clear\"></div>\n      \n"
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.news : stack1)) != null ? stack1.articles : stack1)) != null ? stack1.row2 : stack1),{"name":"if","hash":{},"fn":container.program(19, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\n    </div><!-- .carousel-inner -->\n\n    <a class=\"left carousel-control\" href=\"#carousel-homepage-latestnews\" role=\"button\" data-slide=\"prev\">\n      <i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i><span class=\"sr-only\">Previous</span>\n    </a>\n\n    <a class=\"right carousel-control\" href=\"#carousel-homepage-latestnews\" role=\"button\" data-slide=\"next\">\n      <i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i><span class=\"sr-only\">Next</span>\n    </a>\n  </div><!-- #carousel-homepage-latestnews -->\n</div><!-- .container -->\n</section>\n\n\n\n<section class=\"contact-us\" id=\"contact\">\n  <div class=\"container\">\n    <!-- SECTION HEADER -->\n    <div class=\"section-header\">\n\n      <h2 class=\"white-text\">"
     + alias4(alias5(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.navigation : stack1)) != null ? stack1.contact : stack1)) != null ? stack1.title : stack1), depth0))
     + "</h2>          \n    </div>\n    <!-- / END SECTION HEADER -->\n\n    <!-- CONTACT FORM-->\n    <div class=\"row\">\n\n      <form role=\"form\" method=\"POST\" action=\"https://formspree.io/"
     + alias4(alias5(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.contact : stack1)) != null ? stack1.email : stack1), depth0))
@@ -163,7 +175,7 @@ this["Freshblends"]["Templates"]["index"] = Handlebars.template({"1":function(co
     + "</h4>\n    <p>"
     + ((stack1 = alias5(((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.footer : stack1)) != null ? stack1.endevaDescription : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n  </div>\n\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.footer : stack1)) != null ? stack1.contacts : stack1),{"name":"each","hash":{},"fn":container.program(18, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers.each.call(alias1,((stack1 = ((stack1 = (depth0 != null ? depth0.index : depth0)) != null ? stack1.footer : stack1)) != null ? stack1.contacts : stack1),{"name":"each","hash":{},"fn":container.program(21, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\n</div>\n\n</div> <!-- / END CONTAINER -->\n\n</footer> <!-- / END FOOOTER  -->\n\n\n  </div><!-- mobile-bg-fix-whole-site -->\n</div><!-- .mobile-bg-fix-wrap -->\n";
 },"useData":true});
 

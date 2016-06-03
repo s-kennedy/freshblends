@@ -131,6 +131,7 @@ var content = {
       ]
     },
     board: {
+      hidden: true,
       legend: "Coming soon!",
       members: [
         {
@@ -162,14 +163,14 @@ var content = {
     news: {
       legend: "We spent the last three years seeking the most efficient and sustainable way to help low income groups enter high value markets. We have now developed our business idea and are fundraising for our pilot, which we hope to launch by the end of the year.",
       articles: {
-        row1: [ // up to four articles on row 1
+        row1: [ // up to four articles on row 1, then move to row two
           {
             title: "Amplify Challenge selects our idea!",
             date: "May 2016",
             link: "https://challenges.openideo.com/challenge/agricultural-innovation/expert-feedback/reinventing-the-co-packer-model-in-rwanda",
             image: "https://pbs.twimg.com/profile_images/596062296566157312/RKUCJ6V2.jpg",
             text: "We are one of 85 ideas that have made is the second round of the OpenIdeo Amplify Challenge for Agriculture! Competition was stiff with 426 ideas to compete against. The competition is designed as a learning process, with several steps to complete. It has been a valuable exercise that has allowed us to refine our idea using OpenIdeo’s human centered design approach.",
-            class: "col-sm-3" // remove the col-sm-offset-3 when you add more news items.
+            class: "col-sm-3 col-sm-offset-3" // remove the col-sm-offset-3 when you add more news items.
           },
           {
             title: "We made it to the finals!",
@@ -179,40 +180,9 @@ var content = {
             text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
             class: "col-sm-3"
           },
-          {
-            title: "We made it to the finals!",
-            date: "Jan 2016",
-            link: "http://munich.impacthub.net/eight-billion-lives/",
-            image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
-            text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
-            class: "col-sm-3"
-          },
-          {
-            title: "We made it to the finals!",
-            date: "Jan 2016",
-            link: "http://munich.impacthub.net/eight-billion-lives/",
-            image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
-            text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
-            class: "col-sm-3"
-          }
         ],
         row2: [
-          {
-            title: "We made it to the finals!",
-            date: "Jan 2016",
-            link: "http://munich.impacthub.net/eight-billion-lives/",
-            image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
-            text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
-            class: "col-sm-3"
-          },
-          {
-            title: "We made it to the finals!",
-            date: "Jan 2016",
-            link: "http://munich.impacthub.net/eight-billion-lives/",
-            image: "http://munich.impacthub.net/wp-content/uploads/sites/70/2015/12/8007750_christina.jpg",
-            text: "Our project was made it to the finals of the 8 Billion Lives Fellowship! Over the next 3 months we receive funding and other support from the Munich Impact Hub to help us to further develop our idea.",
-            class: "col-sm-3"
-          },
+          // add up to four articles here
         ]
       }
     },
