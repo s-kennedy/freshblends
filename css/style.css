@@ -17,10 +17,10 @@ General
 --------------------------------------------------------------*/
 
 .entry-content a {
-	color: #11B0BF;
+	color: #F87463;
 }
 .entry-content a:visited {
-	color: #11B0BF;
+	color: #F87463;
 }
 .entry-content a:hover {
 	color: #ea4747;
@@ -41,7 +41,7 @@ Header
 }
 
 #main-nav{
-	border-bottom: 3px solid #11B0BF !important;
+	border-bottom: 3px solid #F87463 !important;
 }
 .navbar-right-search{
 	float: right !important;
@@ -54,7 +54,7 @@ Header
 	margin-right: 5px;
 }
 .header-search{
-	background: #11B0BF;
+	background: #F87463;
 	position: absolute;
 	width: 100%;
 	text-align:center !important;
@@ -117,10 +117,10 @@ Header
 	color: white !important;
 }
 .nav li a.nav-active {
-	color: #11B0BF !important;
+	color: #F87463 !important;
 }
 .nav li a.nav-active:before {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 .header {
 	min-height: 0;
@@ -134,10 +134,10 @@ Header
 }
 .cta .fa-chevron-down {
 	font-size: 48px;
-	color: rgba(17,176,191,0.8)
+	color: rgba(248,116,99,0.8)
 }
 .cta .fa-chevron-down:hover {
-	color: rgba(17,176,191,1);
+	color: rgba(248,116,99,1);
 	font-weight: bold;
 }
 /*--------------------------------------------------------------
@@ -160,30 +160,30 @@ h2.white-text {
 	border-radius: 5px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #11B0BF !important;
+	border-color: #F87463 !important;
 	position: relative;
-	background: rgba(17,176,191, 0.8) !important;
+	background: rgba(248,116,99, 0.8) !important;
 	font-family: 'Titillium Web', sans-serif;
 }
 .red-btn:hover {
     border-width: 2px;
 	border-style: solid;
-    border-color: #11B0BF !important;
-    background: #11B0BF !important;
+    border-color: #F87463 !important;
+    background: #F87463 !important;
 }
 .green-btn {
 	border-radius: 5px;
     border-width: 2px;
 	border-style: solid;
-    border-color: rgb(34, 98, 109);
+    border-color: #ccc;
     position: relative;
-    background: rgba(34,98,109,0.8) !important;
+    background: rgba(153,153,153,0.8) !important;
 }
 .green-btn:hover {
     border-width: 2px;
 	border-style: solid;
-    border-color: rgb(34, 98, 109) !important;
-    background: rgba(34,98,109,1) !important;
+    border-color: #ccc !important;
+    background: rgba(153,153,153,1) !important;
 
 }
 .comment-form #submit, .comment-reply-link,.submit{
@@ -218,7 +218,7 @@ body{
 }
 .entry-title:before {
 	content: "";
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 .entry-title a:hover{
 	color: #ea4747 !important;
@@ -231,7 +231,7 @@ body{
 }
 .widget .widget-title:before {
 	content: "";
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 .section-header h2{
 	text-transform: capitalize !important;
@@ -241,11 +241,11 @@ body{
 }
 .logged-in-as a {
 
-	color: #11B0BF !important;
+	color: #F87463 !important;
 }
 .fn a {
 
-	color: #11B0BF !important;
+	color: #F87463 !important;
 }
 body, button, input, select, textarea {
 	color: #1f2124 !important;
@@ -263,7 +263,7 @@ body, button, input, select, textarea {
 	color: #919495 !important;
 }
 ::-moz-selection {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 	color: #fff !important;
 }
 .testimonial h2 {
@@ -289,7 +289,7 @@ select.input-box {
 	background: rgba(255,255,255, 1) !important;
 }
 .newsletter {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 	color: white !important;
 }
 .newsletter h3 {
@@ -318,12 +318,12 @@ select.input-box {
 	border-radius: 1px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: rgba(17,176,191, 0.8) !important;
+	border-color: rgba(248,116,99, 0.8) !important;
 	position: relative;
-	background: rgba(17,176,191, 0.8) !important;
+	background: rgba(248,116,99, 0.8) !important;
 }
 .purchase-now .red-btn:hover {
-	background: rgba(17,176,191, 1) !important;
+	background: rgba(248,116,99, 1) !important;
 }
 .latest-news h6 {
 	color: #334346 !important;
@@ -382,7 +382,7 @@ select.input-box {
 	/*background-color: #2e3037 !important;*/
 }
 .red-border-bottom:before {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 .about-us p {
 	color: #919495 !important;
@@ -395,7 +395,7 @@ select.input-box {
 	color: #FFF !important;
 }
 .latest-news {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 #carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
 	content: "";
@@ -476,19 +476,19 @@ select.input-box {
 	color: #c0cdcf !important;
 }
 .zerif-copyright {
-	color: #11B0BF !important;
+	color: #F87463 !important;
 }
 .zerif-copyright:hover {
 	opacity: 0.8;
 }
 .our-team .row > div .red-border-bottom:before {
-	background: #11B0BF !important;
+	background: #F87463 !important;
 }
 .team-member .social-icons ul li a {
 	background: none;
 }
 .team-member .social-icons ul li a:hover {
-	color: #11B0BF !important;
+	color: #F87463 !important;
 }
 .social-icons .widget li:before {
 	content: '';
@@ -500,7 +500,7 @@ select.input-box {
 .red-text{
 	color: #919495 !important ;
 }
-.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
     position: absolute;
     top: 30% !important;
     z-index: 5;
