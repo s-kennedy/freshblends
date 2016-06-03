@@ -210,8 +210,8 @@ var content = {
     thanks: {
       message: "Thank you for contacting us. We'll be in touch shortly!",
       button: {
-        text: "Home", 
-        link: "www.fresh-blends.org"
+        text: "Home",
+        link: "http://www.fresh-blends.org/"
       }
     }
   }
