@@ -1,5 +1,5 @@
 var content = {
-  root: "//s-kennedy.github.io/freshblends",
+  root: "//www.fresh-blends.org",
   index: {
     navigation: {
       about: { id: "about", title: "About us" },
