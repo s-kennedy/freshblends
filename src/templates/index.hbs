@@ -209,6 +209,7 @@
   </div>
 </section> 
 
+{{#unless index.board.hidden }}
 <section class="our-board" id="board">
   <div class="container">
     <div class="section-header">
@@ -243,6 +244,7 @@
     </div>
   </div>
 </section> 
+{{/unless}}
 
 <section class="latest-news" id="news">
   <div class="container">
@@ -273,6 +275,7 @@
 
       <div class="clear"></div>
       
+      {{#if index.news.articles.row2 }}
       <div class="item">
         {{#each index.news.articles.row2}}
         <div class="latestnews-box {{class}}">
@@ -289,6 +292,7 @@
       </div>
 
       <div class="clear"></div>
+      {{/if}}
 
     </div><!-- .carousel-inner -->
 

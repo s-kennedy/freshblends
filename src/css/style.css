@@ -603,6 +603,10 @@ Footer
 	width: auto;
 }
 
+.hidden {
+	display: none !important;
+}
+
 @media screen and (max-width: 768px) {
 
 	#main-nav {
@@ -627,4 +631,3 @@ Footer
 	}
 
 }
-
