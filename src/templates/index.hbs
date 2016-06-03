@@ -65,7 +65,7 @@
     {{#each index.about.columns}}
     <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
       <div class="service-icon">
-        <a href="concept_note.pdf"><i class="pixeden" style="background:url(images/{{image}}) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
+        <a href="concept_note.pdf" target="_blank"><i class="pixeden" style="background:url(images/{{image}}) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
       </div>
           
       <h3 class="red-border-bottom subtitle">{{title}}</h3>
@@ -247,6 +247,8 @@
   <div class="container">
     <div class="section-header">
       <h2 class="white-text">{{ index.navigation.news.title}}</h2>
+      <div class="white-text section-legend">{{index.news.legend}}</div>
+      <div class="updates"><a href="//www.mailchimp.com/" target="_blank" class="btn btn-primary custom-button green-btn">Sign up to receive updates</a></div>
     </div><!-- END .section-header -->
 
   <div class="clear"></div>
@@ -260,9 +262,9 @@
           </div>
 
           <div class="latesnews-content">
-            <h3 class="latestnews-title"><a href="{{link}}" title="{{title}}">{{title}}</a></h3>
+            <h3 class="latestnews-title"><a href="{{link}}" target="_blank" title="{{title}}">{{title}}</a></h3>
             <p class="white-text"><span>{{date}}</span> - {{text}}</p>
-            <p><a href="{{link}}">Read more</a></p>
+            <p><a href="{{link}}" target="_blank">Read more</a></p>
           </div>
         </div><!-- .latestnews-box"> -->
         {{/each}}
@@ -595,7 +597,7 @@
 <div class="container">
 
   <div class="col-md-6 company-details endeva">
-    <h4><img src="images/endeva.png" alt="Endeva logo">{{index.footer.endeva}}</h4>
+    <h4><a href="http://www.endeva.org/" target="_blank"><img src="images/endeva.png" alt="Endeva logo"></a>{{index.footer.endeva}}</h4>
     <p>{{{index.footer.endevaDescription}}}</p>
   </div>
 

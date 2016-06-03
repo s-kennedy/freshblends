@@ -175,15 +175,15 @@ h2.white-text {
 	border-radius: 5px;
     border-width: 2px;
 	border-style: solid;
-    border-color: #98A0A2;
+    border-color: rgb(34, 98, 109);
     position: relative;
-    background: rgba(145,148,149,0.8) !important;
+    background: rgba(34,98,109,0.8) !important;
 }
 .green-btn:hover {
     border-width: 2px;
 	border-style: solid;
-    border-color: rgba(100,100,100, 1) !important;
-    background: rgba(100,100,100,0.8) !important;
+    border-color: rgb(34, 98, 109) !important;
+    background: rgba(34,98,109,1) !important;
 
 }
 .comment-form #submit, .comment-reply-link,.submit{
@@ -259,6 +259,9 @@ body, button, input, select, textarea {
 .skill input{
 	color: #fff !important;
 }
+.skill .section-legend {
+	color: #919495 !important;
+}
 ::-moz-selection {
 	background: #11B0BF !important;
 	color: #fff !important;
@@ -325,16 +328,20 @@ select.input-box {
 .latest-news h6 {
 	color: #334346 !important;
 }
+.latest-news .updates {
+	margin-top: 24px;
+}
 .focus-box .service-icon {
 	border: 10px solid #cecece !important;
 }
 .focus-box p, li {
 	font-family: 'Titillium Web', sans-serif !important;
-	color: #919495 !important;
-	font-size: 14px;
+	color: #606365 !important;
+	font-size: 16px;
 }
 .focus-box .emphasis {
 	font-size: 16px;
+	color: #606365 !important;
 	font-weight: 600;
 }
 .service-icon a:hover{
@@ -368,7 +375,7 @@ select.input-box {
 }
 .position{
 	color: #919495 !important;
-	font-size: 14px !important;
+	font-size: 16px !important;
 }
 #pricingtable{
 	background: #fff url("../images/noise.png") !important; 

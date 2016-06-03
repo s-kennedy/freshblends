@@ -102,8 +102,8 @@ a img {
 }
 body {
   font-family: 'Lato', Helvetica, sans-serif !important;
-  font-size: 14px;
-  color: #808080;
+  font-size: 16px;
+  color: ##606365;
   font-weight: normal;
   overflow-x: hidden;
   line-height: 25px;
@@ -1713,8 +1713,8 @@ ul.nav > li.current_page_item.current > a:before {
 }
 .latesnews-content p,
 .latesnews-content {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
   color: #777777;
 }
 #carousel-homepage-latestnews .carousel-inner .item .latestnews-title {
@@ -2233,7 +2233,7 @@ width: -webkit-calc(100% / 4);
   line-height: 25px;
 }
 .about-us .column {
-  margin-bottom: 78px;
+  margin-bottom: 40px;
 }
 .about-us .col-md-12.zerif-rtl-big-title .big-intro,
 .about-us .col-md-12.zerif_about_us_center p {
@@ -2811,7 +2811,7 @@ width: -webkit-calc(100% / 4);
     text-align: center;
 }
 .feedback-box .message {
-  font-size: 15px;
+  font-size: 16px;
   color: #777777;
 }
 .feedback-box .message ul {
