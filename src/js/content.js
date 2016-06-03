@@ -1,5 +1,5 @@
 var content = {
-  root: "//s-kennedy.github.io/freshblends",
+  root: "//www.fresh-blends.org",
   index: {
     navigation: {
       about: { id: "about", title: "About us" },
@@ -211,7 +211,7 @@ var content = {
       message: "Thank you for contacting us. We'll be in touch shortly!",
       button: {
         text: "Home", 
-        link: "/freshblends"
+        link: "www.fresh-blends.org"
       }
     }
   }
