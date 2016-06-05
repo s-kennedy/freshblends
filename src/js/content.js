@@ -16,7 +16,7 @@ var content = {
       legend: "Our approach is a game changer! It will drastically reduce the barriers to African SMME’s entering the premium agro-processing sector.",
       columns: {
         column1: {
-          image: "about1.jpg", // the images should be 125px by 125px
+          image: "jar-with-label.png", // the images should be 125px by 125px
           title: "THE BIG IDEA",
           subtitle: "We are reinventing the co-packer model in Rwanda.",
           text: "By providing affordable quality packaging, processing services, and market access, we will: <ul><li>increase farmer and entrepreneur incomes</li><li>reduce post-harvest losses</li><li>increase biodiversity </li><li>increase availability of high quality African products</li></ul>"
