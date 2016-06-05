@@ -28,7 +28,7 @@ var content = {
           text: "<ul><li>a customized support package (see below).</li><li>a certified processing space.</li><li>a mobile-based IT platform which will guide the clients through the process, provide transparency along the value chain, up-to-date market prices and standardized procedures.</li><li>periodic in-person expert support.</li></ul>"
         },
         column3: {
-          image: "lightbulb1.png",
+          image: "lightbulb1.jpg",
           title: "THE INNOVATION",
           subtitle: "Existing solutions tend to overwhelm the farmers.",
           text: "They provide farmers with processing machinery, simple packaging and some training, basically asking the famers to run both their farm and a small scale processing unit. This approach always fails.<br><br>In the US, farmers and cooperatives can bring their products to a co-packer, who offers a wide range of services to produce high-quality food products."
