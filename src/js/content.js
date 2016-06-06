@@ -16,7 +16,7 @@ var content = {
       legend: "Our approach is a game changer! It will drastically reduce the barriers to African SMME’s entering the premium agro-processing sector.",
       columns: {
         column1: {
-          image: "jar-with-label.png", // the images should be 125px by 125px
+          image: "about1.jpg", // the images should be 125px by 125px
           title: "THE BIG IDEA",
           subtitle: "We are reinventing the co-packer model in Rwanda.",
           text: "By providing affordable quality packaging, processing services, and market access, we will: <ul><li>increase farmer and entrepreneur incomes</li><li>reduce post-harvest losses</li><li>increase biodiversity </li><li>increase availability of high quality African products</li></ul>"
@@ -28,7 +28,7 @@ var content = {
           text: "<ul><li>a customized support package (see below).</li><li>a certified processing space.</li><li>a mobile-based IT platform which will guide the clients through the process, provide transparency along the value chain, up-to-date market prices and standardized procedures.</li><li>periodic in-person expert support.</li></ul>"
         },
         column3: {
-          image: "lightbulb1.jpg",
+          image: "about3.jpg",
           title: "THE INNOVATION",
           subtitle: "Existing solutions tend to overwhelm the farmers.",
           text: "They provide farmers with processing machinery, simple packaging and some training, basically asking the famers to run both their farm and a small scale processing unit. This approach always fails.<br><br>In the US, farmers and cooperatives can bring their products to a co-packer, who offers a wide range of services to produce high-quality food products."
