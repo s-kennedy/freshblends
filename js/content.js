@@ -116,17 +116,17 @@ var content = {
           position: "Partnerships and fundraising",
           details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
         },
+         {
+          image: "megan.jpg",
+          name: "Megan Leahy",
+          position: "Project Manangement and Research",
+          details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
+        },
         {
           image: "akash.jpg",
           name: "Akash Uba",
           position: "Financial modeling",
           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
-        },
-        {
-          image: "megan.jpg",
-          name: "Megan Leahy",
-          position: "Research",
-          details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
         }
       ]
     },
