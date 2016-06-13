@@ -131,33 +131,15 @@ var content = {
       ]
     },
     board: {
-      hidden: true,
-      legend: "Coming soon!",
+      hidden: false,
+      legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FreshBlends, we're fortunate to have the support and insights of a wonderful board of advisors!",
       members: [
         {
-          image: "tendai.jpg",
-          name: "Tendai Pasipanodya",
-          position: "Co-founder",
-          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
+          image: "SFHphoto.jpg",
+          name: "Stephen F. Hall",
+          position: "Expert in Specialty Food Markets",
+          details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses. He publishes the monthly Food Entrepreneur Magazine, coordinates the Online Food Entrepreneur Forum, writes industry research reports, conducts specialty food marketing workshops nationwide, and is an active promoter of the Specialty Food Association."
         },
-        {
-          image: "tendai.jpg",
-          name: "Tendai Pasipanodya",
-          position: "Co-founder",
-          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
-        },
-        {
-          image: "tendai.jpg",
-          name: "Tendai Pasipanodya",
-          position: "Co-founder",
-          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
-        },
-        {
-          image: "tendai.jpg",
-          name: "Tendai Pasipanodya",
-          position: "Co-founder",
-          details: "Tendai has over 10 years experience in business development support for cooperatives, and entrepren-eurs in Africa. Agriculture is one of her main sectors of focus."
-        }
       ]
     },
     news: {
