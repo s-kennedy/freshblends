@@ -135,10 +135,10 @@ var content = {
       legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FreshBlends, we're fortunate to have the support and insights of a wonderful board of advisors!",
       members: [
         {
-          image: "SFH PHOTO 1.jpg",
+          image: "SFH PHOTO 2.jpg",
           name: "Stephen F. Hall",
           position: "Expert in Specialty Food Markets",
-          details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses. He publishes the monthly Food Entrepreneur Magazine, coordinates the Online Food Entrepreneur Forum, writes industry research reports, conducts specialty food marketing workshops nationwide, and is an active promoter of the Specialty Food Association."
+          details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses."
         },
       ]
     },
