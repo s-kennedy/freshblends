@@ -131,7 +131,7 @@ var content = {
       ]
     },
     board: {
-      hidden: false,
+      hidden: true,
       legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FreshBlends, we're fortunate to have the support and insights of a wonderful board of advisors!",
       members: [
         {
