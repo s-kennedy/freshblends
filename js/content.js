@@ -128,12 +128,6 @@ var content = {
           position: "Financial modeling",
           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
         }
-        {
-          image: "raphaelle.jpg",
-          name: "Raphaëlle Arino",
-          position: "Project assistance",
-           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
-        }
       ]
     },
     board: {
