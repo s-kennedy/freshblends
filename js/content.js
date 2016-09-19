@@ -132,7 +132,6 @@ var content = {
           image: "raphaelle.jpg",
           name: "Raphaëlle Arino",
           position: "Project assistance",
-          details: "..."
         }, 
       ]
     },
