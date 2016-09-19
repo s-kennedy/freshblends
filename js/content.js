@@ -119,7 +119,7 @@ var content = {
          {
           image: "megan.jpg",
           name: "Megan Leahy",
-          position: "Project Manangement and Research",
+          position: "Project manangement and research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
         },
         {
@@ -127,6 +127,11 @@ var content = {
           name: "Akash Uba",
           position: "Financial modeling",
           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
+        }
+        {
+          image: "raphaelle.jpg",
+          name: "Raphaëlle Arino",
+          position: "Project assistance"
         }
       ]
     },
