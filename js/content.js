@@ -117,7 +117,7 @@ var content = {
           details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
         },
          {
-          image: "megan1.jpg",
+          image: "megan2.jpg",
           name: "Megan Leahy-Wright",
           position: "Project manangement and research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
