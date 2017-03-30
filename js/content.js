@@ -123,7 +123,7 @@ var content = {
           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
         }, 
         {
-          image: "rebecka.jpg",
+          image: "rebecka1.jpg",
           name: "Rebecka Marklund",
           position: "Project assistance",
         }, 
