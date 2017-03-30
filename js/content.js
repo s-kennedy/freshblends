@@ -110,12 +110,6 @@ var content = {
           position: "On-site operations",
           details: "Based in Rwanda, Bruce brings his insights from 8 years of experience in agriculture. He has worked with smallholder farmers and linked them to export opportunities."
         },
-        {
-          image: "christian.jpg",
-          name: "Christian Woelf Krueger",
-          position: "Partnerships and fundraising",
-          details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
-        },
          {
           image: "megan7.jpg",
           name: "Megan Leahy-Wright",
@@ -142,14 +136,20 @@ var content = {
         {
           image: "SFH PHOTO 2.jpg",
           name: "Stephen F. Hall",
-          position: "Expert in Specialty Food Markets",
+          position: "Specialty Food Marketing",
           details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses."
         },
         {
           image: "",
           name: "Dr. James Myers",
-          position: "Expert in Food Systems & Packaging",
+          position: "Food Systems & Packaging",
           details: "Dr. James Myers is Associate Provost of International Education and Global Programs at Rochester Insitute of Technology. His personal focus is on the nexus of natural resources, infrastructure, and human health in developing countries."
+        },
+        {
+          image: "christian.jpg",
+          name: "Christian Woelf Krueger",
+          position: "Partnerships and fundraising",
+          details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
         },
       ]
     },
