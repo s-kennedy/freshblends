@@ -188,9 +188,9 @@ var content = {
         },
         germany: {
           country: "Germany",
-          contact: "Christina Gradl",
-          email: "c.gradl@endeva.org",
-          phone: "+49 176 820 390 60"
+          contact: "Tendai Pasipanodya",
+          email: "t.pasipanodya@endeva.org",
+          phone: "+49 157 8776 9903"
         }
       }
     },
