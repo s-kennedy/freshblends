@@ -111,7 +111,7 @@ var content = {
           details: "Based in Rwanda, Bruce brings his insights from 8 years of experience in agriculture. He has worked with smallholder farmers and linked them to export opportunities."
         },
          {
-          image: "megan7.jpg",
+          image: "megan8.jpg",
           name: "Megan Leahy-Wright",
           position: "Project manangement and research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
@@ -142,13 +142,13 @@ var content = {
         {
           image: "JimMyers.png",
           name: "Dr. James Myers",
-          position: "Food Systems & Packaging",
+          position: "Food Systems and Packaging",
           details: "Dr. James Myers is Associate Provost of International Education and Global Programs at Rochester Insitute of Technology. His personal focus is on the nexus of natural resources, infrastructure, and human health in developing countries."
         },
         {
           image: "christian.jpg",
           name: "Christian Woelf Krueger",
-          position: "Partnerships and fundraising",
+          position: "Partnerships and Fundraising",
           details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
         },
       ]
