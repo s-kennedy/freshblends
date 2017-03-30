@@ -117,7 +117,7 @@ var content = {
           details: "Christian has excellent experience in building partnerships in Rwanda where he has initiated various projects in several sectors including agriculture."
         },
          {
-          image: "megan2.jpg",
+          image: "megan7.jpg",
           name: "Megan Leahy-Wright",
           position: "Project manangement and research",
           details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
@@ -136,7 +136,7 @@ var content = {
       ]
     },
     board: {
-      hidden: true,
+      hidden: false,
       legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FreshBlends, we're fortunate to have the support and insights of a wonderful board of advisors!",
       members: [
         {
@@ -144,6 +144,12 @@ var content = {
           name: "Stephen F. Hall",
           position: "Expert in Specialty Food Markets",
           details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses."
+        },
+        {
+          image: "",
+          name: "Dr. James Myers",
+          position: "Expert in Food Systems & Packaging",
+          details: "Dr. James Myers is Associate Provost of International Education and Global Programs at Rochester Insitute of Technology. His personal focus is on the nexus of natural resources, infrastructure, and human health in developing countries."
         },
       ]
     },
