@@ -140,7 +140,7 @@ var content = {
           details: "Stephen F. Hall is president of S. Richard Hall & Company, Inc., dba Specialty Food Resource, LLC, where he coaches new specialty food firms on how to grow their businesses."
         },
         {
-          image: "",
+          image: "JimMyers.jpg",
           name: "Dr. James Myers",
           position: "Food Systems & Packaging",
           details: "Dr. James Myers is Associate Provost of International Education and Global Programs at Rochester Insitute of Technology. His personal focus is on the nexus of natural resources, infrastructure, and human health in developing countries."
