@@ -114,7 +114,7 @@ var content = {
           image: "megan8.jpg",
           name: "Megan Leahy-Wright",
           position: "Project manangement and research",
-          details: "Megan brings 5+ years of research experience. She has conducted interviews and research on successful models of co-packing in the US."
+          details: "Megan brings 5+ years of research experience, with a focus on inclusive business, ICT and agriculture. She has conducted market research in Rwanda and examined successful models of co-packing in the US."
         },
         {
           image: "akash.jpg",
@@ -126,6 +126,7 @@ var content = {
           image: "rebecka1.jpg",
           name: "Rebecka Marklund",
           position: "Project assistance",
+          details: "Rebecka has experience conducting market research at a start-up company. She supports the FreshBlends with market and customer development, while completing her Masters degree Business & Innovation."
         }, 
       ]
     },
