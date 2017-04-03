@@ -126,7 +126,7 @@ var content = {
           image: "rebecka1.jpg",
           name: "Rebecka Marklund",
           position: "Project assistance",
-          details: "Rebecka has experience conducting market research at a start-up company. She supports the FreshBlends with market and customer development, while completing her Masters degree Business & Innovation."
+          details: "Rebecka brings practical experience conducting market research for a start-up company. She supports the FreshBlends with market and customer development, while completing her Masters degree Business & Innovation."
         }, 
       ]
     },
