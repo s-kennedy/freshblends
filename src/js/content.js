@@ -16,25 +16,25 @@ var content = {
       legend: "Our approach is a game changer! It will drastically reduce the barriers to African SMME’s entering the premium agro-processing sector.",
       columns: {
         column1: {
-          image: "about1.jpg", // the images should be 125px by 125px
+          image: "aboutus1.jpg", // the images should be 125px by 125px
           title: "THE BIG IDEA",
           subtitle: "We are reinventing the co-packer model in Rwanda.",
           text: "By providing affordable quality packaging, processing services, and market access, we will: <ul><li>increase farmer and entrepreneur incomes</li><li>reduce post-harvest losses</li><li>increase biodiversity </li><li>increase availability of high quality African products</li></ul>"
         },
         column2: {
-          image: "about2.jpg",
+          image: "aboutus2.jpg",
           title: "THE APPROACH",
           subtitle: "Our copacker will provide farmers, young entrepreneurs and existing agro processing companies with:",
           text: "<ul><li>a customized support package (see below).</li><li>a certified processing space.</li><li>a mobile-based IT platform which will guide the clients through the process, provide transparency along the value chain, up-to-date market prices and standardized procedures.</li><li>periodic in-person expert support.</li></ul>"
         },
         column3: {
-          image: "about3.jpg",
+          image: "aboutus3.jpg",
           title: "THE INNOVATION",
           subtitle: "Existing solutions tend to overwhelm the farmers.",
           text: "They provide farmers with processing machinery, simple packaging and some training, basically asking the famers to run both their farm and a small scale processing unit. This approach always fails.<br><br>In the US, farmers and cooperatives can bring their products to a co-packer, who offers a wide range of services to produce high-quality food products."
         },
         column4: {
-          image: "about4.jpg",
+          image: "aboutus4.jpg",
           title: "THE VISION",
           subtitle: "We are the first to adapt the co-packer business model to the African context.",
           text: "If we are successful in Rwanda, our ultimate objective is to scale this across the continent and impact the lives of millions of farmers and young entrepreneurs."
