@@ -1,5 +1,5 @@
 var content = {
-  root: "//www.fresh-blends.org",
+  root: "//www.its-from-here.com",
   index: {
     navigation: {
       about: { id: "about", title: "About us" },
