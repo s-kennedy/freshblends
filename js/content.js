@@ -121,18 +121,12 @@ var content = {
           name: "Akash Uba",
           position: "Financial modeling",
           details: "Akash has 7 years of experience in financing for small- and medium-size businesses. He is supporting the team to develop a sound financial model."
-        }, 
-        {
-          image: "rebecka1.jpg",
-          name: "Rebecka Marklund",
-          position: "Project assistance",
-          details: "Rebecka supports the FreshBlends with market and customer development, while completing her Master's degree in Business & Innovation. She brings practical experience conducting market research for a start-up company. "
-        }, 
+        },
       ]
     },
     board: {
       hidden: false,
-      legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FreshBlends, we're fortunate to have the support and insights of a wonderful board of advisors!",
+      legend: "A great business recognizes the benefit of gaining knowledge from accomplished experts in relevant fields. At FromHere, we're fortunate to have the support and insights of a wonderful board of advisors!",
       members: [
         {
           image: "SFH PHOTO 2.jpg",
