@@ -114,7 +114,7 @@ var content = {
           image: "megan8.jpg",
           name: "Megan Leahy-Wright",
           position: "Project manangement and research",
-          details: "Megan brings 5+ years of research experience, with a focus on inclusive business, ICT and agriculture. She has conducted market research in Rwanda and examined successful models of co-packing in the US."
+          details: "Megan brings 7+ years of research experience, with a focus on inclusive business, ICT and agriculture. She has conducted market research in Rwanda and examined successful models of co-packing in the US."
         },
         {
           image: "akash.jpg",
